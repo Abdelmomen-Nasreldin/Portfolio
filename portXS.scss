@@ -1,0 +1,19 @@
+.header__icons ul {
+    padding-left: 0;
+}
+.my__section header .my__section__container .header__content {
+    padding: 0 6px;
+}
+.header__icons {
+    flex-direction: column;
+}
+.header__icons button {
+    flex-basis: 60%;
+}
+.my__section header {
+    .my__section__container {
+        .image {
+            flex-basis: 55%;
+        }
+    }
+}

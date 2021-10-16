@@ -1,0 +1,88 @@
+// $main-color: #8444df;
+.main {
+    grid-template-columns: 100%;
+    // gap: 0%;
+    .nav__design {
+        // background-color: $main-color;
+        button {
+            box-shadow: 0 0 3px 0px #fff;
+        }
+        .design__logo {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 23px;
+            margin-left: 6px;
+            margin-bottom: 2px;
+        }
+        .ul__small__design {
+            text-align: center;
+            .li__small__design {
+                padding: 10px;
+                background: #ffffff1c;
+                margin: 3px;
+                border-radius: 5px;
+                transition: 0.3s;
+            }
+            .li__small__design:first-of-type {
+                margin-top: 10px;
+            }
+            .li__small__design:hover {
+                // background-color: #9d69e5;
+                background: #ffffff4f;
+            }
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .nav__button {
+        display: block;
+    }
+    .my__aside {
+        margin-left: -120px;
+        width: 120px;
+        z-index: 1;
+        opacity: 0.93;
+        .my__aside__internal {
+            width: 100%;
+        }
+    }
+    .my__aside__ul {
+        .my__aside__li {
+            .my__aside__li__a {
+                color: azure;
+                transition: 1s;
+                position: absolute;
+                left: 36%;
+                padding: 10px;
+                padding-right: 54px;
+                transform: translate(-50%, 0);
+                margin-left: 15px;
+                width: 101px;
+                span {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+.my__section {
+    padding: 1px;
+
+    header {
+        .my__section__container {
+            align-content: space-evenly;
+            .image {
+                flex-basis: 40%;
+            }
+            .header__content {
+                flex-basis: 100%;
+                text-align: center;
+                // padding: 0 30px;
+                .header__icons {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+:root {
+    --color: #8444df;
+}
+
+.main .my__aside .my__aside__logo {
+    background-color: var(--color);
+    filter: brightness(0.85);
+}
+.my__section header .my__section__container .header__content span {
+    color: var(--color);
+}
+
+.my__section
+    header
+    .my__section__container
+    .header__content
+    .header__icons
+    ul
+    li
+    a
+    i {
+    color: var(--color);
+}
+
+.main .nav__design,
+.main .my__aside .my__aside__internal,
+.my__section
+    header
+    .my__section__container
+    .header__content
+    .header__icons
+    button,
+.my__section
+    .contact
+    .my__section__container
+    .my__section__content
+    .contact__1
+    .contact__email,
+.my__section
+    .contact
+    .my__section__container
+    .my__section__content
+    .contact__1
+    .contact__phone,
+.my__section
+    .contact
+    .my__section__container
+    .my__section__content
+    .contact__form
+    button {
+    background-color: var(--color);
+}
+.floating__gear{
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    font-size: 20px;
+    background: aquamarine;
+    padding: 2px 7px 2px 10px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--color);
+    
+}
+.floating__gear i{
+    color: #fff;
+}
+.theming {
+    position: fixed;
+    top: 135px;
+    right: 0px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #060606ab;
+    /* transition: .5s; */
+    
+}
+.theming ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(30px, auto));
+    list-style: none;
+    margin: 2px;
+    padding: 2px;
+}
+.theming ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+@media (max-width:767.98px) {
+    .theming {
+        width: auto;
+    }
+}

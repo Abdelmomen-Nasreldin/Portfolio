@@ -1,0 +1,17 @@
+.my__aside__li__a {
+    color: azure;
+    transition: 1s;
+    position: absolute;
+    transform: translate(-50%, 0);
+    padding: 10px;
+    padding-right: 50px;
+}
+.my__section {
+    .my__section__container {
+        width: 992px;
+    }
+    .my__section__content {
+        border-radius: 30px;
+        padding: 25px 40px;
+    }
+}

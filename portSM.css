@@ -1,0 +1,101 @@
+.main {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.main .nav__design button {
+  -webkit-box-shadow: 0 0 3px 0px #fff;
+          box-shadow: 0 0 3px 0px #fff;
+}
+
+.main .nav__design .design__logo {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 23px;
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.main .nav__design .ul__small__design {
+  text-align: center;
+}
+
+.main .nav__design .ul__small__design .li__small__design {
+  padding: 10px;
+  background: #ffffff1c;
+  margin: 3px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main .nav__design .ul__small__design .li__small__design:first-of-type {
+  margin-top: 10px;
+}
+
+.main .nav__design .ul__small__design .li__small__design:hover {
+  background: #ffffff4f;
+}
+
+.main .nav__design .ul__small__design a {
+  color: #fff;
+}
+
+.main .nav__button {
+  display: block;
+}
+
+.main .my__aside {
+  margin-left: -120px;
+  width: 120px;
+  z-index: 1;
+  opacity: 0.93;
+}
+
+.main .my__aside .my__aside__internal {
+  width: 100%;
+}
+
+.main .my__aside__ul .my__aside__li .my__aside__li__a {
+  color: azure;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  left: 36%;
+  padding: 10px;
+  padding-right: 54px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin-left: 15px;
+  width: 101px;
+}
+
+.main .my__aside__ul .my__aside__li .my__aside__li__a span {
+  display: inline;
+}
+
+.my__section {
+  padding: 1px;
+}
+
+.my__section header .my__section__container {
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+
+.my__section header .my__section__container .image {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.my__section header .my__section__container .header__content {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+}
+
+.my__section header .my__section__container .header__content .header__icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=portSM.css.map */

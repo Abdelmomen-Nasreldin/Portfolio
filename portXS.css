@@ -1,0 +1,25 @@
+.header__icons ul {
+  padding-left: 0;
+}
+
+.my__section header .my__section__container .header__content {
+  padding: 0 6px;
+}
+
+.header__icons {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__icons button {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.my__section header .my__section__container .image {
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
+}
+/*# sourceMappingURL=portXS.css.map */

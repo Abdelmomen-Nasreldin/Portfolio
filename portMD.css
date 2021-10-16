@@ -1,0 +1,31 @@
+.my__aside__logo {
+  padding: 20px;
+}
+
+.my__aside__li__a {
+  color: azure;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.my__section header .my__section__container .image {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.my__section header .my__section__container .header__content {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+  padding: 0 45px;
+}
+
+.my__section header .my__section__container .header__content .header__icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=portMD.css.map */

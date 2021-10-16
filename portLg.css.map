@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAEd,UAAU,EAAE,EAAE;EAGd,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "portLg.scss"
+    ],
+    "names": [],
+    "file": "portLg.css"
+}

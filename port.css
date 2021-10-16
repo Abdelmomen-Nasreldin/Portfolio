@@ -1,0 +1,387 @@
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 95px 1fr;
+      grid-template-columns: 95px 1fr;
+  background-color: #f7f7f7;
+}
+
+.main .nav__design {
+  background-color: #ec3c3c;
+}
+
+.main .nav__button {
+  display: none;
+  background: transparent;
+  border: none;
+  position: fixed;
+  top: 0px;
+  right: 5px;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.main .nav__button .btn__i2 {
+  display: none;
+}
+
+.main .my__aside {
+  position: fixed;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  height: 100vh;
+  width: 142px;
+  z-index: 1;
+}
+
+.main .my__aside .my__aside__internal {
+  height: 100%;
+  width: 70%;
+  background-color: #ec3c3c;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+
+.main .my__aside .my__aside__logo {
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 30px 20px;
+  background: #e41616;
+}
+
+.main .my__aside .my__aside__logo .logo {
+  -ms-flex-preferred-size: 12%;
+      flex-basis: 12%;
+  font-size: 25px;
+}
+
+.main .my__aside__ul {
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.main .my__aside__ul .my__aside__li {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .my__aside__ul .my__aside__li .my__aside__li__a {
+  color: azure;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  left: 70.2px;
+  margin-left: 3px;
+  width: 110px;
+}
+
+.main .my__aside__ul .my__aside__li .my__aside__li__a i {
+  font-size: 23px;
+}
+
+.main .my__aside__ul .my__aside__li .my__aside__li__a span {
+  display: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: absolute;
+  top: 1.8px;
+  font-size: 16px;
+  line-height: 2.3;
+}
+
+.main .my__aside:hover .my__aside__internal {
+  width: 100%;
+}
+
+.main .my__aside:hover .my__aside__li__a span {
+  display: inline-block;
+}
+
+.main .my__aside:hover .my__aside__li__a:hover {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff2e;
+  border-radius: 6px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+section {
+  padding-bottom: 70px;
+}
+
+.my__section {
+  padding: 20px;
+}
+
+.my__section .my__section__content {
+  border-radius: 20px;
+  padding: 20px 25px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 1px 1px darkgray;
+          box-shadow: 0 0 1px 1px darkgray;
+  -webkit-box-shadow: 0px 0px 13px rgba(134, 151, 168, 0.3);
+          box-shadow: 0px 0px 13px rgba(134, 151, 168, 0.3);
+}
+
+.my__section header .my__section__container {
+  height: 100vh;
+}
+
+.my__section header .my__section__container .image {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.my__section header .my__section__container .header__content {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 0 30px;
+}
+
+.my__section header .my__section__container .header__content .intro {
+  color: #5f6f81;
+  font-size: 1.2rem;
+}
+
+.my__section header .my__section__container .header__content span {
+  color: #ec3c3c;
+}
+
+.my__section header .my__section__container .header__content .header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.my__section header .my__section__container .header__content .header__icons button {
+  background-color: #ec3c3c;
+  padding: 12px 35px;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.my__section header .my__section__container .header__content .header__icons ul {
+  list-style: none;
+}
+
+.my__section header .my__section__container .header__content .header__icons ul li {
+  margin: 15px;
+  font-size: 1.5rem;
+}
+
+.my__section header .my__section__container .header__content .header__icons ul li a i {
+  font-size: 1.5rem;
+  color: #ec3c3c;
+}
+
+.my__section .info__p, .my__section .skills .my__section__container div .skills__p, .my__section .works .my__section__container div .works__p, .my__section .contact .my__section__container div .contact__p {
+  letter-spacing: 2px;
+}
+
+.my__section .info__span, .my__section .skills .my__section__container div .skills__span, .my__section .works .my__section__container div .works__span, .my__section .contact .my__section__container div .contact__span {
+  font-size: 10px;
+  position: relative;
+  padding-left: 80px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.my__section .info__span::before, .my__section .skills .my__section__container div .skills__span::before, .my__section .works .my__section__container div .works__span::before, .my__section .contact .my__section__container div .contact__span::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  left: 0;
+  top: 50%;
+  background: #333;
+}
+
+.my__section .info .my__section__container {
+  padding: 10px;
+  font-size: 10px;
+}
+
+.my__section .info .my__section__container .my__section__content p {
+  line-height: 1.7;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.my__section .skills .my__section__container .my__section__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, auto))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(80px, auto));
+  gap: 18px;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my__section .skills .my__section__container .my__section__content div:not(.img) {
+  -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+          box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  width: 80px;
+}
+
+.my__section .skills .my__section__container .my__section__content div:not(.img):hover {
+  -webkit-box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+.my__section .skills .my__section__container .my__section__content .img {
+  max-width: 70%;
+  width: 80px;
+  height: 40px;
+}
+
+.my__section .skills .my__section__container .my__section__content span {
+  text-transform: capitalize;
+}
+
+.my__section .works .my__section__container .my__section__content .works__card {
+  -webkit-box-shadow: 0px 0px 13px 1px rgba(134, 151, 168, 0.2);
+          box-shadow: 0px 0px 13px 1px rgba(134, 151, 168, 0.2);
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.my__section .works .my__section__container .my__section__content .works__card img {
+  height: 60%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.my__section .works .my__section__container .my__section__content .works__card img:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.my__section .works .my__section__container .my__section__content .works__card:hover {
+  -webkit-box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__heading {
+  margin: 10px 2px 35px;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__1 {
+  display: -ms-grid;
+  display: grid;
+  gap: 20px;
+  -ms-grid-columns: (minmax(250px, 350px))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__1 .contact__email,
+.my__section .contact .my__section__container .my__section__content .contact__1 .contact__phone {
+  min-height: 90px;
+  max-height: 150px;
+  border-radius: 10px;
+  background-color: #ec3c3c;
+  color: #fff;
+  padding: 30px 10px;
+  color: #fff;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__1 .contact__email a,
+.my__section .contact .my__section__container .my__section__content .contact__1 .contact__phone a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__1 i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__form {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 370px;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__form input {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.my__section .contact .my__section__container .my__section__content .contact__form button {
+  width: 140px;
+  margin: 15px auto;
+  background-color: #ec3c3c;
+  padding: 8px;
+  border: none;
+}
+
+@media (max-width: 380px) {
+  .my__section .contact .my__section__container .my__section__content .contact__1 {
+    display: -ms-grid;
+    display: grid;
+    gap: 20px;
+    -ms-grid-columns: (minmax(232px, 350px))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(232px, 350px));
+  }
+  .my__section .contact .my__section__container .my__section__content .contact__1 .contact__email,
+  .my__section .contact .my__section__container .my__section__content .contact__1 .contact__phone {
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 310px) {
+  .my__section .contact .my__section__container .my__section__content .contact__1 {
+    display: -ms-grid;
+    display: grid;
+    gap: 20px;
+    -ms-grid-columns: (minmax(200px, 350px))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  }
+  .my__section .contact .my__section__container .my__section__content .contact__1 .contact__email,
+  .my__section .contact .my__section__container .my__section__content .contact__1 .contact__phone {
+    padding: 30px 0;
+    color: #fff;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=port.css.map */
