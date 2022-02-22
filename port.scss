@@ -245,6 +245,9 @@ section {
                     max-width: 70%;
                     width: 80px;
                     height: 40px;
+                    img{
+                        height: 40px;
+                    }
                 }
                 span {
                     text-transform: capitalize;
@@ -338,16 +341,16 @@ section {
                             text-decoration: none;
                         }
                     }
-                    .contact__email {
-                    }
-                    .contact__phone {
-                    }
+                    // .contact__email {
+                    // }
+                    // .contact__phone {
+                    // }
                     i {
                         font-size: 35px;
                         margin-bottom: 10px;
                     }
-                    a {
-                    }
+                    // a {
+                    // }
                 }
                 .contact__form {
                     display: grid;

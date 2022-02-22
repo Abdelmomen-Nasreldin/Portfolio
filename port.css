@@ -265,6 +265,10 @@ section {
   height: 40px;
 }
 
+.my__section .skills .my__section__container .my__section__content .img img {
+  height: 40px;
+}
+
 .my__section .skills .my__section__container .my__section__content span {
   text-transform: capitalize;
 }
