@@ -278,11 +278,13 @@ section {
                     div.imgDiv{
                         // width: 432px;
                         // height: 288px;
-                        height: 65%;
+                        height: 300px;
                         overflow: hidden;
                     }
                     img {
                         height: 100%;
+    width: 100%;
+    object-fit: contain;
                         transition: 0.3s;
                        
                     }

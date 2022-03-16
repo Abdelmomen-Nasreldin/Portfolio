@@ -282,12 +282,15 @@ section {
 }
 
 .my__section .works .my__section__container .my__section__content .works__card div.imgDiv {
-  height: 65%;
+  height: 300px;
   overflow: hidden;
 }
 
 .my__section .works .my__section__container .my__section__content .works__card img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
