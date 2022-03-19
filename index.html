@@ -1,632 +1,755 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>port</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="port.css" />
-    <link
-      rel="stylesheet"
-      href="portXL.css"
-      media="screen and (min-width:1200px)"
-    />
-    <link
-      rel="stylesheet"
-      href="portLg.css"
-      media="screen and (max-width: 1199.98px)"
-    />
-    <link
-      rel="stylesheet"
-      href="portMD.css"
-      media="screen and (min-width:768px) and (max-width:991.98px)"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>port</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="port.css" />
+        <link
+            rel="stylesheet"
+            href="portXL.css"
+            media="screen and (min-width:1200px)"
+        />
+        <link
+            rel="stylesheet"
+            href="portLg.css"
+            media="screen and (max-width: 1199.98px)"
+        />
+        <link
+            rel="stylesheet"
+            href="portMD.css"
+            media="screen and (min-width:768px) and (max-width:991.98px)"
+        />
 
-    <link
-      rel="stylesheet"
-      href="portSM.css"
-      media="screen and (max-width: 767.98px)"
-    />
-    <link
-      rel="stylesheet"
-      href="portXS.css"
-      media="screen and (max-width: 575.98px)"
-    />
-    <link rel="stylesheet" href="Theme.css" />
-    <!-- <style>
+        <link
+            rel="stylesheet"
+            href="portSM.css"
+            media="screen and (max-width: 767.98px)"
+        />
+        <link
+            rel="stylesheet"
+            href="portXS.css"
+            media="screen and (max-width: 575.98px)"
+        />
+        <link rel="stylesheet" href="Theme.css" />
+        <!-- <style>
             :root{
                 --main-color: blue;
             }
         </style> -->
-  </head>
-  <body>
-    <!-- d-flex flex-column justify-content-center align-items-center -->
-    <div class="main">
-      <div></div>
-      <button class="nav__button">
-        <i class="bi bi-caret-right-fill btn__i1"></i>
-        <i class="bi bi-caret-left-fill btn__i2"></i>
-      </button>
-      <!-- ////////////////////// START OF NAVBAR FOR DESIGN //////////////////////////// -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top nav__design d-block d-md-none"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand design__logo" href="#">MN</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul__small__design">
-              <li class="nav-item li__small__design">
-                <a class="nav-link" aria-current="page" href="#home"
-                  ><i class="fas fa-home me-2"></i><span>Home</span></a
-                >
-              </li>
-              <li class="nav-item li__small__design">
-                <a class="nav-link" href="#about"
-                  ><i class="fas fa-user-tie me-2"></i><span>About</span></a
-                >
-              </li>
-              <li class="nav-item li__small__design">
-                <a class="nav-link" href="#skills"
-                  ><i class="fas fa-code me-2"></i><span>Skills</span></a
-                >
-              </li>
-              <li class="nav-item li__small__design">
-                <a class="nav-link" href="#works"
-                  ><i class="fas fa-briefcase me-2"></i><span>Works</span></a
-                >
-              </li>
-              <li class="nav-item li__small__design">
-                <a class="nav-link" href="#contact"
-                  ><i class="fas fa-phone-square-alt me-2"></i
-                  ><span>Contact</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- END OF NAVBAR FOR DESIGN //////////////////////////// -->
-      <aside class="my__aside d-sm-none d-md-block">
-        <div class="my__aside__internal d-flex flex-column">
-          <div class="my__aside__logo">
-            <p class="logo">MN</p>
-          </div>
+    </head>
+    <body>
+        <!-- d-flex flex-column justify-content-center align-items-center -->
+        <div class="main">
+            <div></div>
+            <button class="nav__button">
+                <i class="bi bi-caret-right-fill btn__i1"></i>
+                <i class="bi bi-caret-left-fill btn__i2"></i>
+            </button>
+            <!-- ////////////////////// START OF NAVBAR FOR DESIGN //////////////////////////// -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light fixed-top nav__design d-block d-md-none"
+            >
+                <div class="container-fluid">
+                    <a class="navbar-brand design__logo" href="#">MN</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarTogglerDemo02"
+                    >
+                        <ul
+                            class="navbar-nav me-auto mb-2 mb-lg-0 ul__small__design"
+                        >
+                            <li class="nav-item li__small__design">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#home"
+                                    ><i class="fas fa-home me-2"></i
+                                    ><span>Home</span></a
+                                >
+                            </li>
+                            <li class="nav-item li__small__design">
+                                <a class="nav-link" href="#about"
+                                    ><i class="fas fa-user-tie me-2"></i
+                                    ><span>About</span></a
+                                >
+                            </li>
+                            <li class="nav-item li__small__design">
+                                <a class="nav-link" href="#skills"
+                                    ><i class="fas fa-code me-2"></i
+                                    ><span>Skills</span></a
+                                >
+                            </li>
+                            <li class="nav-item li__small__design">
+                                <a class="nav-link" href="#works"
+                                    ><i class="fas fa-briefcase me-2"></i
+                                    ><span>Works</span></a
+                                >
+                            </li>
+                            <li class="nav-item li__small__design">
+                                <a class="nav-link" href="#contact"
+                                    ><i class="fas fa-phone-square-alt me-2"></i
+                                    ><span>Contact</span></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- END OF NAVBAR FOR DESIGN //////////////////////////// -->
+            <aside class="my__aside d-sm-none d-md-block">
+                <div class="my__aside__internal d-flex flex-column">
+                    <div class="my__aside__logo">
+                        <p class="logo">MN</p>
+                    </div>
 
-          <ul class="nav flex-column justify-content-between my__aside__ul">
-            <li class="nav-item my__aside__li">
-              <a
-                class="nav-link active my__aside__li__a"
-                aria-current="page"
-                href="#home"
-                ><i class="fas fa-home me-2"></i><span>Home</span></a
-              >
-            </li>
-            <li class="nav-item my__aside__li">
-              <a class="nav-link my__aside__li__a" href="#about"
-                ><i class="fas fa-user-tie me-2"></i><span>About</span></a
-              >
-            </li>
-            <li class="nav-item my__aside__li">
-              <a class="nav-link my__aside__li__a" href="#skills"
-                ><i class="fas fa-code me-2"></i><span>Skills</span></a
-              >
-            </li>
-            <li class="nav-item my__aside__li">
-              <a class="nav-link my__aside__li__a" href="#works"
-                ><i class="fas fa-briefcase me-2"></i><span>Works</span></a
-              >
-            </li>
-            <li class="nav-item my__aside__li">
-              <a class="nav-link my__aside__li__a" href="#contact"
-                ><i class="fas fa-phone-square-alt me-2"></i
-                ><span>Contact</span></a
-              >
-            </li>
-            <!-- <li class="nav-item my__aside__li">
+                    <ul
+                        class="nav flex-column justify-content-between my__aside__ul"
+                    >
+                        <li class="nav-item my__aside__li">
+                            <a
+                                class="nav-link active my__aside__li__a"
+                                aria-current="page"
+                                href="#home"
+                                ><i class="fas fa-home me-2"></i
+                                ><span>Home</span></a
+                            >
+                        </li>
+                        <li class="nav-item my__aside__li">
+                            <a class="nav-link my__aside__li__a" href="#about"
+                                ><i class="fas fa-user-tie me-2"></i
+                                ><span>About</span></a
+                            >
+                        </li>
+                        <li class="nav-item my__aside__li">
+                            <a class="nav-link my__aside__li__a" href="#skills"
+                                ><i class="fas fa-code me-2"></i
+                                ><span>Skills</span></a
+                            >
+                        </li>
+                        <li class="nav-item my__aside__li">
+                            <a class="nav-link my__aside__li__a" href="#works"
+                                ><i class="fas fa-briefcase me-2"></i
+                                ><span>Works</span></a
+                            >
+                        </li>
+                        <li class="nav-item my__aside__li">
+                            <a class="nav-link my__aside__li__a" href="#contact"
+                                ><i class="fas fa-phone-square-alt me-2"></i
+                                ><span>Contact</span></a
+                            >
+                        </li>
+                        <!-- <li class="nav-item my__aside__li">
                             <a class="nav-link my__aside__li__a" href="#"
                                 ><i class="fas fa-phone-square-alt me-2"></i
                                 ><span>Contact</span></a
                             >
                         </li> -->
-          </ul>
+                    </ul>
+                </div>
+            </aside>
+            <div class="my__section">
+                <!--////////////////////////////////////// start home /////////////////////////// -->
+
+                <header id="home">
+                    <div
+                        class="container my__section__container d-flex flex-wrap justify-content-around align-items-center"
+                    >
+                        <!-- <header class="d-flex flex-wrap justify-content-around align-items-center"> -->
+                        <div class="image">
+                            <img
+                                src="myphoto.jpg"
+                                class="img-fluid rounded-circle"
+                                alt=""
+                            />
+                        </div>
+                        <div class="header__content">
+                            <p>HI THERE! I'M</p>
+                            <h1 style="text-transform: uppercase">
+                                <span>Abdelmomen</span> nasr
+                            </h1>
+                            <p class="intro">
+                                A
+                                <span>Frontend Web Developer</span> passionate
+                                about creating interactive applications and
+                                experiences on the web.
+                            </p>
+                            <div
+                                class="header__icons d-flex align-items-center flex-wrap"
+                            >
+                              
+                                <ul class="d-flex mb-0 align-items-center">
+                                    <li>
+                                        <a
+                                            href="./CV.pdf"
+                                            download="Abdelmomen Frontend.pdf"
+                                            target="_blank"
+                                            ><button
+                                            type="button"
+                                            class="btn btn-primary rounded-pill"
+                                        >
+                                            Resume
+                                        </button></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.linkedin.com/in/abdelmomen-nasreldin5/"
+                                            target="_blank"
+                                            ><i class="bi bi-linkedin"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.facebook.com/momen.nasr.7/"
+                                            target="_blank"
+                                            ><i class="bi bi-messenger"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href=""
+                                            ><i class="bi bi-whatsapp"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- </header> -->
+                    </div>
+                </header>
+                <!--////////////////////////////////////// start about /////////////////////////// -->
+
+                <section class="info" id="about">
+                    <div class="container my__section__container">
+                        <div>
+                            <span class="info__span">SOME INFO</span>
+                            <p class="h3 text-uppercase mb-5 mt-3 info__p">
+                                ABOUT ME
+                            </p>
+                        </div>
+                        <div class="my__section__content">
+                            <p class="m-0">
+                                I'm a Frontend web developer with a background
+                                in computer systems and network infrastructure.
+                                I graduated from the
+                                <span style="color: #8444df"
+                                    >Information Technology Institute ITI</span
+                                >
+                                . I am passionate about coding and solving
+                                problems through code, and I am excited to work
+                                alongside other amazing programmers and learn so
+                                much more!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!--////////////////////////////////////// start skills /////////////////////////// -->
+
+                <section class="skills" id="skills">
+                    <div class="container my__section__container">
+                        <div>
+                            <span class="skills__span">SOME INFO</span>
+                            <p class="h3 text-uppercase mb-5 mt-3 skills__p">
+                                skills
+                            </p>
+                        </div>
+                        <div class="my__section__content">
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/html.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>HTML</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/css.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>css</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/javascript.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <span>javascript</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/jquery.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>jquery</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/sass.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>sass</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/react.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>react</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/vscode.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>vscode</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/firebase.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://alexcalia.com/assets/skills/git.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>Git</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://angular.io/assets/images/logos/angular/shield-large.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>Angular</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="">
+                                <div class="img">
+                                    <img
+                                        src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <span>mongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--////////////////////////////////////// start works /////////////////////////// -->
+
+                <section class="works" id="works">
+                    <div class="container my__section__container">
+                        <div>
+                            <span class="works__span">works</span>
+                            <p class="h3 text-uppercase mb-5 mt-3 works__p">
+                                Projects
+                            </p>
+                        </div>
+                        <div class="my__section__content">
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://abdelmomen-landing-page-2.netlify.app/"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="./images/langing page 2.png"
+                                                    class="card-img-top img-fluid"
+                                                    alt="..."
+                                                />
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Landing Page 2
+                                            </h5>
+                                            <p class="card-text">
+                                                Landing Page using HTML5, CSS3, SASS, and Bootstrap5
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://abdelmomen-landing-page-1.netlify.app/"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="./images/landing page 1.png"
+                                                    class="card-img-top img-fluid"
+                                                    alt="..."
+                                                />
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Landing Page 1
+                                            </h5>
+                                            <p class="card-text">
+                                              Landing Page using HTML5, CSS3, SASS, Bootstrap5, and owl carousel
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://awesome-food-order-app.netlify.app"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+                                                    class="card-img-top img-fluid"
+                                                    alt="..."
+                                                />
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Food Order application
+                                            </h5>
+                                            <p class="card-text">
+                                                Food Order application using
+                                                React.js Where user can add Food
+                                                Order after choose amount to
+                                                cart and order them
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://noon-shopping.herokuapp.com/"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="https://noon-ecommerce.herokuapp.com/images/noon-black-en.svg"
+                                                    class="card-img-top img-fluid"
+                                                    alt="..."
+                                            /></a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                E-commerce Website
+                                            </h5>
+                                            <p class="card-text">
+                                                E-commerce website looks like
+                                                noon using MERN <br />
+                                                Where user can register, login
+                                                and add products to cart and
+                                                then order them<br />
+                                                Go to user profile, change user
+                                                profile settings (name and
+                                                password) <br />
+                                                Andlearn about orders status
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://admiring-hypatia-5fdf15.netlify.app/"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="https://image.freepik.com/free-vector/web-development-application-design-illustration-pink-background_145666-1338.jpg"
+                                                    class="card-img-top"
+                                                    alt="..."
+                                                />
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">Edvora</h5>
+                                            <p class="card-text">
+                                                Convert Figma to Code using
+                                                React <br />
+                                                user can filter products
+                                                depending on products name and
+                                                the other filters will be only
+                                                for this product name which are
+                                                state and city filters and after
+                                                selcting state then the city
+                                                filter will depends only for
+                                                this state which is depends on
+                                                product name.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100 works__card">
+                                        <div class="imgDiv">
+                                            <a
+                                                href="https://vibrant-raman-346ee6.netlify.app"
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src="https://img.freepik.com/free-vector/two-factor-authentication-concept-illustration_114360-5598.jpg?size=338&ext=jpg"
+                                                    class="card-img-top"
+                                                    alt="..."
+                                                />
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                Admin page
+                                            </h5>
+
+                                            <p class="card-text">
+                                                Admin can do CRUD operations
+                                                <br />
+                                                Authentication using Firebase
+                                                and mobile verification <br />
+                                                Project done using React.js and
+                                                Firebase
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--////////////////////////////////////// start contact /////////////////////////// -->
+
+                <section class="contact" id="contact">
+                    <div class="container my__section__container">
+                        <div>
+                            <span class="contact__span">say hello</span>
+                            <p class="h3 text-uppercase mb-5 mt-3 contact__p">
+                                contact
+                            </p>
+                        </div>
+                        <div class="my__section__content">
+                            <h4 class="contact__heading">Get in Touch</h4>
+                            <div class="contact__1">
+                                <div class="contact__email d-grid text-center">
+                                    <a
+                                        href="mailto:abdelmomennasreldin@gmail.com"
+                                        ><i class="fas fa-envelope"></i
+                                    ></a>
+
+                                    <a
+                                        href="mailto:abdelmomennasreldin@gmail.com"
+                                        >abdelmomennasreldin@gmail.com</a
+                                    >
+                                </div>
+                                <div class="contact__phone d-grid text-center">
+                                    <a href="#home"
+                                        ><i class="fas fa-phone-volume"></i
+                                    ></a>
+
+                                    <a href="#home">Call Me</a>
+                                </div>
+                            </div>
+                            <div class="contact__Divform">
+                                <h4 class="mb-3 mt-5">Contact Form</h4>
+                                <form action="" class="contact__form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                placeholder="First name"
+                                                aria-label="First name"
+                                            />
+                                        </div>
+                                        <div class="col">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                placeholder="Last name"
+                                                aria-label="Last name"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                placeholder="Email"
+                                                aria-label="email"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Leave a comment here"
+                                            id="floatingTextarea2"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="floatingTextarea2"
+                                            >Comments</label
+                                        >
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary rounded-pill"
+                                    >
+                                        Send
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-      </aside>
-      <div class="my__section">
-        <!--////////////////////////////////////// start home /////////////////////////// -->
 
-        <header id="home">
-          <div
-            class="container my__section__container d-flex flex-wrap justify-content-around align-items-center"
-          >
-            <!-- <header class="d-flex flex-wrap justify-content-around align-items-center"> -->
-            <div class="image">
-              <img src="myphoto.jpg" class="img-fluid rounded-circle" alt="" />
-            </div>
-            <div class="header__content">
-              <p>HI THERE! I'M</p>
-              <h1 style="text-transform: uppercase">
-                <span>Abdelmomen</span> nasr
-              </h1>
-              <p class="intro">
-                A
-                <span>Frontend Web Developer</span> passionate about creating
-                interactive applications and experiences on the web.
-              </p>
-              <div class="header__icons d-flex align-items-center flex-wrap">
-                <!-- <button>Resume</button> -->
-                <button type="button" class="btn btn-primary rounded-pill">
-                  Resume
-                </button>
-                <ul class="d-flex mb-0">
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/abdelmomen-nasreldin5/"
-                      target="_blank"
-                      ><i class="bi bi-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.facebook.com/momen.nasr.7/"
-                      target="_blank"
-                      ><i class="bi bi-messenger"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="bi bi-whatsapp"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- </header> -->
-          </div>
-        </header>
-        <!--////////////////////////////////////// start about /////////////////////////// -->
+        <div class="theming">
+            <ul></ul>
+        </div>
+        <div class="floating__gear" id="floating__gear">
+            <!-- <p></p> -->
+            <i class="bi bi-gear"></i>
+        </div>
+        <script>
+            let navBtn = document.getElementsByClassName("nav__button");
+            let myAside = document.getElementsByClassName("my__aside");
+            let AsideUl = document.getElementsByClassName("my__aside__ul");
+            let btn__i2 = document.getElementsByClassName("btn__i2");
+            let btn__i1 = document.getElementsByClassName("btn__i1");
+            navBtn[0].onclick = function () {
+                if (getComputedStyle(myAside[0]).marginLeft == "-120px") {
+                    myAside[0].style.marginLeft = "0px";
+                    btn__i1[0].style.display = "none";
+                    btn__i2[0].style.display = "block";
+                } else {
+                    myAside[0].style.marginLeft = "-120px";
+                    btn__i1[0].style.display = "block";
+                    btn__i2[0].style.display = "none";
+                }
+            };
+            // let div__ul = document.createElement("div")
+            var root = document.querySelector(":root");
+            let theme = document.querySelector(".theming");
+            let ul = document.querySelector(".theming ul");
+            let floatGear = document.getElementById("floating__gear");
+            let colors = [
+                "#8444df",
+                "#447adf",
+                "lightblue",
+                "#ec3c3c",
+                "red",
+                "#FD7E14",
+                "#1E90FF",
+                "#DE5C9D",
+                "#0DCAF0",
+            ];
 
-        <section class="info" id="about">
-          <div class="container my__section__container">
-            <div>
-              <span class="info__span">SOME INFO</span>
-              <p class="h3 text-uppercase mb-5 mt-3 info__p">ABOUT ME</p>
-            </div>
-            <div class="my__section__content">
-              <p class="m-0">
-                I'm a Frontend web developer with a background in computer
-                systems and network infrastructure. I graduated from the
-                <span style="color: #8444df"
-                  >Information Technology Institute ITI</span
-                >
-                . I am passionate about coding and solving problems through
-                code, and I am excited to work alongside other amazing
-                programmers and learn so much more!
-              </p>
-            </div>
-          </div>
-        </section>
-        <!--////////////////////////////////////// start skills /////////////////////////// -->
+            for (let i = 0; i < colors.length; i++) {
+                let li = document.createElement("li");
+                ul.appendChild(li);
+                li.style.backgroundColor = colors[i];
+                li.onclick = function () {
+                    root.style.setProperty("--color", colors[i]);
+                };
+            }
+            // ////////////////////////////////
 
-        <section class="skills" id="skills">
-          <div class="container my__section__container">
-            <div>
-              <span class="skills__span">SOME INFO</span>
-              <p class="h3 text-uppercase mb-5 mt-3 skills__p">skills</p>
-            </div>
-            <div class="my__section__content">
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/html.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>HTML</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/css.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>css</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/javascript.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-
-                <span>javascript</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/jquery.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>jquery</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/sass.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>sass</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/react.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>react</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/vscode.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>vscode</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/firebase.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>Firebase</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://alexcalia.com/assets/skills/git.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>Git</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://angular.io/assets/images/logos/angular/shield-large.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>Angular</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <span>Node.js</span>
-              </div>
-              <div class="">
-                <div class="img">
-                  <img
-                    src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
-                    class="img-fluid"
-                    alt=""
-                    
-                  />
-                </div>
-                <span>mongoDB</span>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--////////////////////////////////////// start works /////////////////////////// -->
-
-        <section class="works" id="works">
-          <div class="container my__section__container">
-            <div>
-              <span class="works__span">works</span>
-              <p class="h3 text-uppercase mb-5 mt-3 works__p">Projects</p>
-            </div>
-            <div class="my__section__content">
-              <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                  <div class="card h-100 works__card">
-                    <div class="imgDiv">
-                      <a
-                        href="https://awesome-food-order-app.netlify.app"
-                        target="_blank"
-                      >
-                        <img
-                          src="https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
-                          class="card-img-top img-fluid"
-                          alt="..."
-                        />
-                      </a>
-                    </div>
-                    <hr />
-                    <div class="card-body">
-                      <h5 class="card-title">Food Order application</h5>
-                      <p class="card-text">
-                        Food Order application using React.js
-                        Where user can add Food Order after choose amount to cart and order them
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 works__card">
-                    <div class="imgDiv">
-                      <a
-                        href="https://noon-shopping.herokuapp.com/"
-                        target="_blank"
-                      >
-                        <img
-                          src="https://noon-ecommerce.herokuapp.com/images/noon-black-en.svg"
-                          class="card-img-top img-fluid"
-                          alt="..."
-                      /></a>
-                    </div>
-                    <hr />
-                    <div class="card-body">
-                      <h5 class="card-title">E-commerce Website</h5>
-                      <p class="card-text">
-                        E-commerce website looks like noon using MERN <br>
-                        Where user can register, login and add products to cart and then order them<br>
-                        Go to user profile, change user profile settings (name and password)  <br>
-                        Andlearn about orders status
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 works__card">
-                    <div class="imgDiv">
-                      <a
-                        href="https://admiring-hypatia-5fdf15.netlify.app/"
-                        target="_blank"
-                      >
-                        <img
-                          src="https://image.freepik.com/free-vector/web-development-application-design-illustration-pink-background_145666-1338.jpg"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                      </a>
-                    </div>
-                    <hr />
-                    <div class="card-body">
-                      <h5 class="card-title">Edvora</h5>
-                      <p class="card-text">
-                        Convert Figma to Code using React  <br>
-                        user can filter
-                        products depending on products name and the other
-                        filters will be only for this product name which are
-                        state and city filters and after selcting state then the
-                        city filter will depends only for this state which is
-                        depends on product name.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 works__card">
-                    <div class="imgDiv">
-                      <a
-                        href="https://vibrant-raman-346ee6.netlify.app"
-                        target="_blank"
-                      >
-                        <img
-                          src="https://img.freepik.com/free-vector/two-factor-authentication-concept-illustration_114360-5598.jpg?size=338&ext=jpg"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                      </a>
-                    </div>
-                    <hr />
-                    <div class="card-body">
-                      <h5 class="card-title">Admin page</h5>
-                      
-                      <p class="card-text">
-                        Admin can do CRUD operations <br>
-                         Authentication using
-                        Firebase and mobile verification  <br>
-                        Project done using React.js and Firebase
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--////////////////////////////////////// start contact /////////////////////////// -->
-
-        <section class="contact" id="contact">
-          <div class="container my__section__container">
-            <div>
-              <span class="contact__span">say hello</span>
-              <p class="h3 text-uppercase mb-5 mt-3 contact__p">contact</p>
-            </div>
-            <div class="my__section__content">
-              <h4 class="contact__heading">Get in Touch</h4>
-              <div class="contact__1">
-                <div class="contact__email d-grid text-center">
-                  <a href="mailto:abdelmomennasreldin@gmail.com"
-                    ><i class="fas fa-envelope"></i
-                  ></a>
-
-                  <a href="mailto:abdelmomennasreldin@gmail.com"
-                    >abdelmomennasreldin@gmail.com</a
-                  >
-                </div>
-                <div class="contact__phone d-grid text-center">
-                  <a href="#home"><i class="fas fa-phone-volume"></i></a>
-
-                  <a href="#home">Call Me</a>
-                </div>
-              </div>
-              <div class="contact__Divform">
-                <h4 class="mb-3 mt-5">Contact Form</h4>
-                <form action="" class="contact__form">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="First name"
-                        aria-label="First name"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Last name"
-                        aria-label="Last name"
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                        aria-label="email"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-floating">
-                    <textarea
-                      class="form-control"
-                      placeholder="Leave a comment here"
-                      id="floatingTextarea2"
-                      style="height: 100px"
-                    ></textarea>
-                    <label for="floatingTextarea2">Comments</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary rounded-pill">
-                    Send
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <div class="theming">
-      <ul></ul>
-    </div>
-    <div class="floating__gear" id="floating__gear">
-      <!-- <p></p> -->
-      <i class="bi bi-gear"></i>
-    </div>
-    <script>
-      let navBtn = document.getElementsByClassName("nav__button");
-      let myAside = document.getElementsByClassName("my__aside");
-      let AsideUl = document.getElementsByClassName("my__aside__ul");
-      let btn__i2 = document.getElementsByClassName("btn__i2");
-      let btn__i1 = document.getElementsByClassName("btn__i1");
-      navBtn[0].onclick = function () {
-        if (getComputedStyle(myAside[0]).marginLeft == "-120px") {
-          myAside[0].style.marginLeft = "0px";
-          btn__i1[0].style.display = "none";
-          btn__i2[0].style.display = "block";
-        } else {
-          myAside[0].style.marginLeft = "-120px";
-          btn__i1[0].style.display = "block";
-          btn__i2[0].style.display = "none";
-        }
-      };
-      // let div__ul = document.createElement("div")
-      var root = document.querySelector(":root");
-      let theme = document.querySelector(".theming");
-      let ul = document.querySelector(".theming ul");
-      let floatGear = document.getElementById("floating__gear");
-      let colors = [
-        "#8444df",
-        "#447adf",
-        "lightblue",
-        "#ec3c3c",
-        "red",
-        "#FD7E14",
-        "#1E90FF",
-        "#DE5C9D",
-        "#0DCAF0",
-      ];
-
-      for (let i = 0; i < colors.length; i++) {
-        let li = document.createElement("li");
-        ul.appendChild(li);
-        li.style.backgroundColor = colors[i];
-        li.onclick = function () {
-          root.style.setProperty("--color", colors[i]);
-        };
-      }
-      // ////////////////////////////////
-
-      floatGear.onclick = function () {
-        if (getComputedStyle(theme).marginRight == "-200px") {
-          theme.style.marginRight = "0px";
-        } else {
-          theme.style.marginRight = "-200px";
-        }
-      };
-      window.onload = function () {
-        theme.style.marginRight = "-200px";
-        theme.style.transition = "1s";
-      };
-    </script>
-  </body>
+            floatGear.onclick = function () {
+                if (getComputedStyle(theme).marginRight == "-200px") {
+                    theme.style.marginRight = "0px";
+                } else {
+                    theme.style.marginRight = "-200px";
+                }
+            };
+            window.onload = function () {
+                theme.style.marginRight = "-200px";
+                theme.style.transition = "1s";
+            };
+        </script>
+    </body>
 </html>
